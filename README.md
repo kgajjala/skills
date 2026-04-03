@@ -4,6 +4,45 @@ A collection of Claude Code skills for personal investment research.
 
 ---
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Skills](#skills)
+  - [kg-investment-analysis](#kg-investment-analysis)
+  - [kg-recent-price-analysis](#kg-recent-price-analysis)
+
+---
+
+## Installation
+
+Each skill is packaged as a `.skill` file (a zip archive). To install, extract each skill into your personal Claude Code skills directory.
+
+**Prerequisites:** [Claude Code](https://claude.ai/code) installed.
+
+**Steps:**
+
+1. Clone or download this repository:
+   ```bash
+   git clone <repo-url>
+   cd skills
+   ```
+
+2. Extract each `.skill` file into `~/.claude/skills/`:
+   ```bash
+   unzip kg-investment-analysis.skill -d ~/.claude/skills/
+   unzip kg-recent-price-analysis.skill -d ~/.claude/skills/
+   ```
+
+3. Verify the skills are installed by checking the directories exist:
+   ```bash
+   ls ~/.claude/skills/
+   # Should list: kg-investment-analysis  kg-recent-price-analysis
+   ```
+
+4. Open Claude Code — skills are auto-discovered and available immediately. Type `/` to see them listed, or invoke them directly (e.g., `/kg-investment-analysis`).
+
+---
+
 ## Skills
 
 ### kg-investment-analysis
